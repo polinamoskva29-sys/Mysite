@@ -1,1 +1,170 @@
-# Mysite
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Мы в соцсетях</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #000;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 520px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #777;
+      margin-bottom: 40px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      width: 100%;
+      min-height: 76px;
+
+      padding: 0 22px;
+
+      background: #111;
+      border: 1px solid #2a2a2a;
+      border-radius: 20px;
+
+      color: white;
+      text-decoration: none;
+
+      transition: 0.2s ease;
+    }
+
+    .social:hover {
+      transform: translateY(-2px);
+      background: #181818;
+      border-color: #555;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .icon {
+      width: 42px;
+      height: 42px;
+
+      border-radius: 12px;
+
+      background: white;
+      color: black;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .name {
+      font-size: 19px;
+      font-weight: 500;
+    }
+
+    .arrow {
+      font-size: 22px;
+      color: #777;
+    }
+
+    .footer {
+      margin-top: 36px;
+      font-size: 12px;
+      color: #444;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+
+    <div class="title">
+      САМО СОБОЙ
+    </div>
+
+    <div class="subtitle">
+      ничего не само собой
+    </div>
+
+    <div class="links">
+
+      <a class="social" href="#" target="_blank">
+        <div class="left">
+          <div class="icon">VK</div>
+          <div class="name">Мы в ВК</div>
+        </div>
+
+        <div class="arrow">↗</div>
+      </a>
+
+
+      <a class="social" href="#" target="_blank">
+        <div class="left">
+          <div class="icon">▶</div>
+          <div class="name">Мы в YouTube</div>
+        </div>
+
+        <div class="arrow">↗</div>
+      </a>
+
+
+      <a class="social" href="#" target="_blank">
+        <div class="left">
+          <div class="icon">TG</div>
+          <div class="name">Мы в Telegram</div>
+        </div>
+
+        <div class="arrow">↗</div>
+      </a>
+
+    </div>
+
+    <div class="footer">
+      © 2026
+    </div>
+
+  </div>
+
+</body>
+</html>
